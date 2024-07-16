@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - audioClip: {fileID: 0}
     text: "\uC120\uD0DD\uC9C0 3"
-    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
     - {fileID: 11400000, guid: 535fbd1e3a254134eb9ced8cd0b16977, type: 2}
