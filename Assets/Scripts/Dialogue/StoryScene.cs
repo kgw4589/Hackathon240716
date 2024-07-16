@@ -8,7 +8,7 @@ public class StoryScene : ScriptableObject
     public List<Sentence> sentences;
     public AudioClip backgroundMusic;
     public StoryScene nextScene;
-
+    
     [System.Serializable]
     public struct Sentence
     {
@@ -18,5 +18,8 @@ public class StoryScene : ScriptableObject
         public Speaker speaker;
 
         public float nextSentenceDelay;
+        
+        public StoryScene[] selectionStoryScene;
+        public int trueSelectionIndex;
     }
 }

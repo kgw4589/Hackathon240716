@@ -4,6 +4,7 @@ using UnityEngine;
 [System.Serializable]
 public class Speaker : ScriptableObject
 {
+    public int speakerIndex;
     public string speakerName;
     public Color nameColor;
 }

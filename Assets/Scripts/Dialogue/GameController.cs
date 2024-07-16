@@ -6,21 +6,27 @@ using UnityEngine.Serialization;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private DialogueManager dialogueManager;
+    private DialogueManager _dialogueManager;
     
     public StoryScene currentScene;
 
     public bool isAllFinished = false;
     public bool isOnButton = false;
-    
-    private void Start()
+
+    private void Awake()
     {
-        PlayScene(currentScene);
+        GameManager.Instance.SetScript(this);
+        _dialogueManager = FindObjectOfType<DialogueManager>();
+    }
+
+    public void StartScene()
+    {
+        _dialogueManager.PlayStory(currentScene);
     }
 
     public void PlayScene(StoryScene storyScene)
     {
-        dialogueManager.PlayStory(storyScene);
+        _dialogueManager.PlayStory(storyScene);
     }
 
     private void Update()
@@ -33,11 +39,11 @@ public class GameController : MonoBehaviour
 
     private void NextSentence()
     {
-        if (!dialogueManager.IsCompleted())
+        if (!_dialogueManager.IsCompleted())
         {
             return;
         }
-        if (dialogueManager.IsLastSentence())
+        if (_dialogueManager.IsLastSentence())
         {
             if (!currentScene.nextScene)
             {
@@ -51,13 +57,13 @@ public class GameController : MonoBehaviour
             return;
         }
                 
-        dialogueManager.PlayNextSentence();
+        _dialogueManager.PlayNextSentence();
     }
     
     void NextScene()
     {
         currentScene = currentScene.nextScene;
-        dialogueManager.PlayStory(currentScene);
+        _dialogueManager.PlayStory(currentScene);
     }
     
     void EndCurrentStoryScene()

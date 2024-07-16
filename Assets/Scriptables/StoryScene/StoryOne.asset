@@ -17,13 +17,22 @@ MonoBehaviour:
     text: "\uC544\uB2C8 \uC560\uCD08\uC5D0"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
   - audioClip: {fileID: 0}
     text: "\uB3D9\uC77C \uB178\uB3D9\uC744 \uC548 \uD558\uB294\uB370"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
   - audioClip: {fileID: 0}
     text: "\uC5B4\uB5BB\uAC8C \uB3D9\uC77C \uC784\uAE08\uC744 \uBC1B\uB098\uC694"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
+    selectionStoryScene:
+    - {fileID: 11400000, guid: 54bc7baf9508c8b42833dcdf3435cfa5, type: 2}
+    - {fileID: 11400000, guid: abc42e11f25fa29469a639f653d00883, type: 2}
+    - {fileID: 11400000, guid: 5281e76319327a94aad81047bdff0f03, type: 2}
+    trueSelectionIndex: 1
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
