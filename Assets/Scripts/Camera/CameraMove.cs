@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class CameraMove : MonoBehaviour
 {
     public CinemachineVirtualCamera[] virCamList;
     
