@@ -41,7 +41,6 @@ public class CharacterAnim : MonoBehaviour
 
     public void StartIdle()
     {
-        Debug.Log("12345");
         PlayAnim(State.Idle);
     }
 }
