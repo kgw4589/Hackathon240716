@@ -384,6 +384,8 @@ MonoBehaviour:
   virCamList:
   - {fileID: 5060245047842378643}
   - {fileID: 2833519472409624579}
+  - {fileID: 2833519472409624579}
+  - {fileID: 2833519472409624579}
 --- !u!1 &5557244563854299918
 GameObject:
   m_ObjectHideFlags: 0
