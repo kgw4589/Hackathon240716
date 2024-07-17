@@ -11,20 +11,18 @@ public class EndSceneUI : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI scoreText;
 
-    private void Start()
-    {
-        // OnEndPanel();
-    }
+    private bool _isPanelOn = false;
 
     public void OnEndPanel()
     {
         animator.SetTrigger("OnEndPanel");
-
+        _isPanelOn = true;
         scoreText.text = GameManager.Instance.Score.ToString() + "%";
     }
 
     public void GoMenuScene()
     {
+        _isPanelOn = false;
         GameManager.Instance.Reset();
     } 
 }
