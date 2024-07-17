@@ -68,7 +68,7 @@ MonoBehaviour:
     selectionStoryScene: []
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
-    offInformation: 0
+    offInformation: 1
   - audioClip: {fileID: 0}
     text: "\uD655\uC2E4\uD788, \uC6B0\uB9AC \uBAA8\uB450 \uC2A4\uC2A4\uB85C\uB97C
       \uB3CC\uC544\uBCF4\uBA70"

@@ -57,7 +57,7 @@ MonoBehaviour:
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
-    informationImage: {fileID: 0}
+    informationImage: {fileID: 21300000, guid: a29c024b65e82b24093bd95ececdb72c, type: 3}
     offInformation: 0
   - audioClip: {fileID: 0}
     text: "(\uB2E4\uC2DC \uBC18\uBC15\uD560 \uCC28\uB840\uC57C..)"

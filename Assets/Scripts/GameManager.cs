@@ -62,7 +62,12 @@ public class GameManager : Singleton<GameManager>
 
     public void OnSelectionPanel()
     {
-        _uiManager.selectionPanel.SetActive(true);
+        if (_uiManager.isOnInformation)
+        {
+            _uiManager.ChangeInformationPosition();
+        }
+        
+        _uiManager.OnSelectionPanel();
     }
 
     public void OnInformationImage(Sprite sprite)
