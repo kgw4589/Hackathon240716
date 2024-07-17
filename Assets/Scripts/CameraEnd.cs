@@ -11,7 +11,7 @@ public class CameraEnd : MonoBehaviour
 
     void Update()
     {
-        if (dollyCart.m_Position >= 121.1108)
+        if (dollyCart.m_Position >= 121)
         {
             endSceneUI.OnEndPanel();
         }

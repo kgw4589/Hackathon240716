@@ -15,6 +15,11 @@ public class EndSceneUI : MonoBehaviour
 
     public void OnEndPanel()
     {
+        if (_isPanelOn)
+        {
+            return;
+        }
+        
         animator.SetTrigger("OnEndPanel");
         _isPanelOn = true;
         scoreText.text = GameManager.Instance.Score.ToString() + "%";
