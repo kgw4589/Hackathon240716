@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uC544\uB2C8 \uC560\uCD08\uC5D0"
+    text: "\uB300\uC0AC 1"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
   - audioClip: {fileID: 0}
-    text: "\uB3D9\uC77C \uB178\uB3D9\uC744 \uC548 \uD558\uB294\uB370"
+    text: "\uB300\uC0AC 2"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
   - audioClip: {fileID: 0}
-    text: "\uC5B4\uB5BB\uAC8C \uB3D9\uC77C \uC784\uAE08\uC744 \uBC1B\uB098\uC694"
+    text: "\uB300\uC0AC 3"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
