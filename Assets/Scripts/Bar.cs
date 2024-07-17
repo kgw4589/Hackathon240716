@@ -19,7 +19,7 @@ public class Bar : MonoBehaviour
 
     private void Update()
     {
-        _hpSlider.value = Mathf.Lerp(_hpSlider.value ,_hp / maxHp, Time.deltaTime * 0.1f);
+        _hpSlider.value = Mathf.Lerp(_hpSlider.value ,_hp / maxHp, Time.deltaTime * 3f);
         
         var thisPos = image.transform.localPosition;
         image.transform.localPosition = new Vector3((_hpSlider.value * 1000) - 500, thisPos.y,thisPos.z);
