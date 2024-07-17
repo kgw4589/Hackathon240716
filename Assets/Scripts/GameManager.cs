@@ -56,6 +56,10 @@ public class GameManager : Singleton<GameManager>
             _characterDic.Add(speaker, characterAnim);
         }
     }
+    public void ClearCharacter()
+    {
+        _characterDic.Clear();
+    }
 
     public void SetScript(GameController gameController)
     {
