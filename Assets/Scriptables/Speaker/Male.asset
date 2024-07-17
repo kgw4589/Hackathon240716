@@ -15,3 +15,4 @@ MonoBehaviour:
   speakerIndex: 0
   speakerName: "\uCCA0\uC218"
   nameColor: {r: 0, g: 0.86146116, b: 1, a: 1}
+  characterAnim: {fileID: 107458153646815681, guid: f4f0d4dada0792f47a2874c086ad75f8, type: 3}

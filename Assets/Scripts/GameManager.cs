@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -13,10 +15,34 @@ public class GameManager : Singleton<GameManager>
     public int cameraTargetIndex;
 
     private const float _START_STORY_DELAY = 1.0f;
-    
-    protected override void Init()
+
+    public float maxScore = 100;
+    private float _score;
+
+    public float Score
     {
-        
+        get { return _score; }
+        set
+        {
+            if (_score + value >= 100)
+            {
+                _score = 100;
+            }
+            else if (_score + value <= 0)
+            {
+                _score = 0;
+            }
+            else
+            {
+                _score += value;
+            }
+        }
+    }
+
+    public void Reset()
+    {
+        _score = 0;
+        SceneManager.LoadScene("MenuScene");
     }
 
     public void SetScript(GameController gameController)
@@ -30,10 +56,6 @@ public class GameManager : Singleton<GameManager>
     public void SetScript(Bar bar)
     {
         _hpBar = bar;
-    }
-    public void SetScript(CharacterAnim characterAnim)
-    {
-        _characterAnim = characterAnim;
     }
 
     public void StartGame()
@@ -60,9 +82,9 @@ public class GameManager : Singleton<GameManager>
         _gameController.PlayScene(storyScene);
     }
 
-    public void PlayCharacterAnimation(CharacterAnim.State state)
+    public void PlayCharacterAnimation(CharacterAnim characterAnim, CharacterAnim.State state)
     {
-        _characterAnim.PlayAnim(state);
+        characterAnim?.PlayAnim(state);
     }
 
     public void SetHp(float value)

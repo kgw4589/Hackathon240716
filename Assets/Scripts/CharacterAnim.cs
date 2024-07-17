@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class CharacterAnim : MonoBehaviour
 {
-    private Animator _anim;
-
-
+    public Animator _anim;
+    
     public enum State
     {
         Idle,
@@ -16,12 +15,6 @@ public class CharacterAnim : MonoBehaviour
     public State motion;
 
     private static readonly int SelectMotion = Animator.StringToHash("SelectMotion");
-    
-    void Awake()
-    {
-        GameManager.Instance.SetScript(this);
-        _anim = GetComponent<Animator>();
-    }
 
     public void PlayAnim(State state)
     {
