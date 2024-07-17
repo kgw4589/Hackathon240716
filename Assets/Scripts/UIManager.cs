@@ -8,7 +8,11 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    [SerializeField] private Animator dialogueAnimator;
+    [SerializeField] private Animator informationAnimator;
+    
     public GameObject selectionPanel;
+    public Image informationImage;
 
     private StoryScene[] _storyScenes = new StoryScene[3];
     private StoryScene _nextScene;
@@ -37,6 +41,22 @@ public class UIManager : MonoBehaviour
         {
             _storyScenes[i] = storyScenes[i];
         }
+    }
+
+    public void OnDialoguePanel()
+    {
+        dialogueAnimator.SetTrigger("OnDialogue");
+    }
+    
+    public void OnInformationImage(Sprite sprite)
+    {
+        informationImage.sprite = sprite;
+        informationAnimator.SetTrigger("OnInformation");
+    }
+    
+    public void OffInformationImage()
+    {
+        informationAnimator.SetTrigger("OffInformation");
     }
 
     public void OnClickSelectionOne()

@@ -10,6 +10,8 @@ public class GameManager : Singleton<GameManager>
     public bool isButtonSelected = false;
 
     public int cameraTargetIndex;
+
+    private const float _START_STORY_DELAY = 1.0f;
     
     protected override void Init()
     {
@@ -33,7 +35,15 @@ public class GameManager : Singleton<GameManager>
 
     IEnumerator StartScene()
     {
-        yield return new WaitUntil(() => _gameController);
+        yield return new WaitUntil(() => _uiManager && _gameController);
+        _uiManager.OnDialoguePanel();
+
+        StartCoroutine(StartStory());
+    }
+
+    IEnumerator StartStory()
+    {
+        yield return new WaitForSeconds(_START_STORY_DELAY);
         _gameController.StartScene();
     }
 
@@ -45,6 +55,16 @@ public class GameManager : Singleton<GameManager>
     public void OnSelectionPanel()
     {
         _uiManager.selectionPanel.SetActive(true);
+    }
+
+    public void OnInformationImage(Sprite sprite)
+    {
+        _uiManager.OnInformationImage(sprite);
+    }
+    
+    public void OffInformation()
+    {
+        _uiManager.OffInformationImage();
     }
 
     public void SetStoryScenes(StoryScene[] storyScenes, int trueSelectionIndex)

@@ -19,12 +19,16 @@ MonoBehaviour:
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
   - audioClip: {fileID: 0}
     text: "\uB300\uC0AC 2"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
+    informationImage: {fileID: 21300000, guid: a29c024b65e82b24093bd95ececdb72c, type: 3}
+    offInformation: 0
   - audioClip: {fileID: 0}
     text: "\uB300\uC0AC 3"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -34,5 +38,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: abc42e11f25fa29469a639f653d00883, type: 2}
     - {fileID: 11400000, guid: 5281e76319327a94aad81047bdff0f03, type: 2}
     trueSelectionIndex: 1
+    informationImage: {fileID: 0}
+    offInformation: 1
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}

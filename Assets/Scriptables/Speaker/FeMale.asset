@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FeMale
   m_EditorClassIdentifier: 
   speakerIndex: 1
-  speakerName: A
+  speakerName: "\uC601\uD76C"
   nameColor: {r: 1, g: 0.2924527, b: 0.5761478, a: 1}
