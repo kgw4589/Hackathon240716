@@ -14,11 +14,12 @@ public class Bar : MonoBehaviour
         GameManager.Instance.SetScript(this);
         
         _hp = maxHp / 2;
+        _hpSlider.value = _hp / maxHp;
     }
 
     private void Update()
     {
-        _hpSlider.value = _hp / maxHp;
+        _hpSlider.value = Mathf.Lerp(_hpSlider.value ,_hp / maxHp, Time.deltaTime * 0.1f);
         
         var thisPos = image.transform.localPosition;
         image.transform.localPosition = new Vector3((_hpSlider.value * 1000) - 500, thisPos.y,thisPos.z);
