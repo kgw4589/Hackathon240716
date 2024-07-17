@@ -24,7 +24,7 @@ public class Bar : MonoBehaviour
 
     public void Calculate(float count)
     {
-        
+        _hp -= count;
     }
 
 }
