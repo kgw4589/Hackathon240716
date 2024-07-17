@@ -16,10 +16,10 @@ public class CharacterAnim : MonoBehaviour
     public State motion;
 
     private static readonly int SelectMotion = Animator.StringToHash("SelectMotion");
-
-    // Start is called before the first frame update
-    void Start()
+    
+    void Awake()
     {
+        GameManager.Instance.SetScript(this);
         _anim = GetComponent<Animator>();
     }
 

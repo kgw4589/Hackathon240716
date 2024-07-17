@@ -6,6 +6,7 @@ public class GameManager : Singleton<GameManager>
     private GameController _gameController;
     private UIManager _uiManager;
     private Bar _hpBar;
+    private CharacterAnim _characterAnim;
 
     public bool isButtonSelected = false;
 
@@ -30,6 +31,10 @@ public class GameManager : Singleton<GameManager>
     {
         _hpBar = bar;
     }
+    public void SetScript(CharacterAnim characterAnim)
+    {
+        _characterAnim = characterAnim;
+    }
 
     public void StartGame()
     {
@@ -53,6 +58,11 @@ public class GameManager : Singleton<GameManager>
     public void PlayScene(StoryScene storyScene)
     {
         _gameController.PlayScene(storyScene);
+    }
+
+    public void PlayCharacterAnimation(CharacterAnim.State state)
+    {
+        _characterAnim.PlayAnim(state);
     }
 
     public void SetHp(float value)

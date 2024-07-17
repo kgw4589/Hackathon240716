@@ -27,5 +27,7 @@ public class StoryScene : ScriptableObject
 
         public Sprite informationImage;
         public bool offInformation;
+
+        public CharacterAnim.State characterAnimState;
     }
 }

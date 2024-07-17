@@ -76,6 +76,8 @@ public class DialogueManager : MonoBehaviour
 
         sentenceAudioSource.clip = currentSentence.audioClip;
         sentenceAudioSource.Play();
+        
+        GameManager.Instance.PlayCharacterAnimation(currentSentence.characterAnimState);
 
         if (currentSentence.informationImage)
         {

@@ -21,6 +21,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 2
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
   selectText: "\uC120\uD0DD\uC9C0 2"

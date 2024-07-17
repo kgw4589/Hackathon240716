@@ -21,6 +21,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 1
   - audioClip: {fileID: 0}
     text: "\uC6B0\uB9AC\uB294 \uB3D9\uC77C\uD55C \uC77C\uC744 \uD558\uACE0 \uC788\uC9C0\uB9CC
       \uC784\uAE08\uC740 \uC5EC\uC804\uD788 \uCC28\uC774\uAC00 \uB0A9\uB2C8\uB2E4."
@@ -30,6 +31,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 1
   - audioClip: {fileID: 0}
     text: "\uD55C\uAD6D\uC5D0\uC11C \uC5EC\uC131\uC758 \uD3C9\uADE0 \uC784\uAE08\uC740
       \uB0A8\uC131\uC758 \uD3C9\uADE0 \uC784\uAE08\uC5D0 \uBE44\uD574 \uC57D 34%
@@ -40,6 +42,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 1
   - audioClip: {fileID: 0}
     text: "\uC774\uB294 OECD \uAD6D\uAC00 \uC911\uC5D0\uC11C\uB3C4 \uAC00\uC7A5 \uD070
       \uC131\uBCC4 \uC784\uAE08 \uACA9\uCC28 \uC911 \uD558\uB098\uC785\uB2C8\uB2E4."
@@ -49,6 +52,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uAD6D\uC81C \uB178\uB3D9 \uAE30\uAD6C\uC758 \uD611\uC57D\uC5D0 \uB530\uB974\uBA74,
       \uC131\uBCC4\uC5D0 \uAD00\uACC4\uC5C6\uC774 \uB3D9\uC77C\uD55C \uB178\uB3D9\uC5D0
@@ -60,6 +64,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uC790 \uC774\uC81C \uBC18\uBC15\uD560 \uCC28\uB840\uC57C..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -68,6 +73,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uC774 \uC8FC\uC7A5\uC5D0 \uBC18\uBC15\uD560 \uADFC\uAC70\uAC00 \uC788\uC744\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -79,6 +85,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 1
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
   selectText: 
