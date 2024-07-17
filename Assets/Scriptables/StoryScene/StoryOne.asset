@@ -61,7 +61,7 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uC800 \uC8FC\uC7A5\uC5D0\uB294 \uC624\uB958\uAC00 \uB9CE\uC544.."
+    text: "(\uC800 \uC8FC\uC7A5\uC5D0\uB294 \uC624\uB958\uAC00 \uB9CE\uC544..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -69,7 +69,7 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uC5B4\uB5A4 \uC790\uB8CC\uB97C \uB4E4\uC5B4 \uBC18\uBC15\uD560\uAE4C?"
+    text: "(\uC5B4\uB5A4 \uC790\uB8CC\uB97C \uB4E4\uC5B4 \uBC18\uBC15\uD560\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
@@ -81,4 +81,5 @@ MonoBehaviour:
     offInformation: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
+  selectText: 
   selectedValue: 0

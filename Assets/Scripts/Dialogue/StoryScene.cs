@@ -8,7 +8,8 @@ public class StoryScene : ScriptableObject
     public List<Sentence> sentences;
     public AudioClip backgroundMusic;
     public StoryScene nextScene;
-    
+
+    public string selectText;
     public float selectedValue;
     
     [System.Serializable]

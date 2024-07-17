@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
+    text: "(\uC820\uC7A5, \uBC18\uBC15\uD560 \uC218\uAC00 \uC5C4\uC11C..\u3160)"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
     text: "\uC778\uC815\uD558\uACA0\uC74D\uB2C8\uB2E4.."
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
@@ -21,6 +29,15 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC544\uB2C8.. \uBC18\uBC15 \uC790\uB8CC\uAC00 \uC5C6\uB098..?"
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
+  selectText: "\uBC18\uBC15\uD560 \uBD80\uBD84\uC774 \uC5C6\uB2E4.."
   selectedValue: -50

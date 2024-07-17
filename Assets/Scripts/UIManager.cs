@@ -1,9 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -13,7 +9,9 @@ public class UIManager : MonoBehaviour
     
     public GameObject selectionPanel;
     public Image informationImage;
-
+    
+    public TextMeshProUGUI[] buttonText = new TextMeshProUGUI[3];
+    
     private StoryScene[] _storyScenes = new StoryScene[3];
 
     private int _trueSelectionIndex;
@@ -39,6 +37,7 @@ public class UIManager : MonoBehaviour
         
         for (int i = 0; i < 3; i++)
         {
+            buttonText[i].text = storyScenes[i].selectText;
             _storyScenes[i] = storyScenes[i];
         }
     }

@@ -23,4 +23,5 @@ MonoBehaviour:
     offInformation: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
+  selectText: "\uC774\uAE30"
   selectedValue: -10
