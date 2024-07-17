@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -66,6 +67,6 @@ public class GameController : MonoBehaviour
     void EndCurrentStoryScene()
     {
         isAllFinished = true;
-        Debug.Log("끝!");
+        SceneManager.LoadScene("EndScene");
     }
 }
