@@ -13,7 +13,7 @@ public class EndSceneUI : MonoBehaviour
 
     private void Start()
     {
-        OnEndPanel();
+        // OnEndPanel();
     }
 
     public void OnEndPanel()
