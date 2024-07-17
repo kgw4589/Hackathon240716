@@ -9,6 +9,7 @@ public class GameManager : Singleton<GameManager>
     private UIManager _uiManager;
     private Bar _hpBar;
     private CharacterAnim _characterAnim;
+    private CameraEnd _cameraEnd;
 
     public bool isButtonSelected = false;
 
@@ -45,6 +46,10 @@ public class GameManager : Singleton<GameManager>
         SceneManager.LoadScene("MenuScene");
     }
 
+    public void SetScript(CameraEnd cameraEnd)
+    {
+        _cameraEnd = cameraEnd;
+    }
     public void SetScript(GameController gameController)
     {
         _gameController = gameController;
