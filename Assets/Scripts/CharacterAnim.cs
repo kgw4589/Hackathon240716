@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class CharacterAnim : MonoBehaviour
@@ -13,12 +14,9 @@ public class CharacterAnim : MonoBehaviour
         Talk,
         BadSelect
     }
-
-    private void Awake()
+    
+    private void OnEnable()
     {
-        anim = GetComponent<Animator>();
-        anim.enabled = true;
-        
         GameManager.Instance.AddCharacter(mySpeaker, this);
     }
 
@@ -41,5 +39,10 @@ public class CharacterAnim : MonoBehaviour
     public void StartIdle()
     {
         PlayAnim(State.Idle);
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Instance.ClearCharacter();
     }
 }

@@ -46,6 +46,7 @@ public class GameManager : Singleton<GameManager>
     public void Reset()
     {
         _score = 0;
+        Debug.Log(_characterDic.Count); 
         SceneManager.LoadScene("MenuScene");
     }
 
@@ -53,8 +54,13 @@ public class GameManager : Singleton<GameManager>
     {
         if (!_characterDic.ContainsKey(speaker))
         {
+            Debug.Log(213213);
             _characterDic.Add(speaker, characterAnim);
         }
+    }
+    public void ClearCharacter()
+    {
+        _characterDic.Clear();
     }
 
     public void SetScript(GameController gameController)

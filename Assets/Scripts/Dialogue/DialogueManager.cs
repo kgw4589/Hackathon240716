@@ -82,7 +82,6 @@ public class DialogueManager : MonoBehaviour
         if (currentSentence.speaker != cheongJoong)
         {
             GameManager.Instance.PlayCharacterAnimation(currentSentence.speaker, currentSentence.characterAnimState);
-            
         }
 
         if (currentSentence.informationImage)
