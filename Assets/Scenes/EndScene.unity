@@ -699,6 +699,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 811612523}
     m_Modifications:
+    - target: {fileID: 50627160771239700, guid: f4f0d4dada0792f47a2874c086ad75f8, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e7c6ffee75ed5da4b951786bddee9210, type: 2}
     - target: {fileID: 6999066841748669282, guid: f4f0d4dada0792f47a2874c086ad75f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1006,6 +1010,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5432842940022689571, guid: ceef56b5a03f15a46bdd37b19aa5db9f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e7c6ffee75ed5da4b951786bddee9210, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12942,6 +12950,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 811612523}
     m_Modifications:
+    - target: {fileID: 113263575127678904, guid: a9f5bc841e0182b43bcccfb76c26a511, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e7c6ffee75ed5da4b951786bddee9210, type: 2}
     - target: {fileID: 3536597961810791820, guid: a9f5bc841e0182b43bcccfb76c26a511, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.1
