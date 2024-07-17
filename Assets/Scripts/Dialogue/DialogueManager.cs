@@ -64,18 +64,30 @@ public class DialogueManager : MonoBehaviour
     public void PlayNextSentence()
     {
         _isDelayFinish = false;
-        
-        StartCoroutine(TypeText(currentScene.sentences[++_sentenceIndex].text));
-        
-        StartCoroutine(DelayNextSentence(currentScene.sentences[_sentenceIndex].nextSentenceDelay));
 
-        GameManager.Instance.ChangeCameraTarget(currentScene.sentences[_sentenceIndex].speaker.speakerIndex);
+        StoryScene.Sentence currentSentence = currentScene.sentences[++_sentenceIndex];
         
-        speakerNameText.text = currentScene.sentences[_sentenceIndex].speaker.speakerName;
-        speakerNameText.color = currentScene.sentences[_sentenceIndex].speaker.nameColor;
+        StartCoroutine(TypeText(currentSentence.text));
 
-        sentenceAudioSource.clip = currentScene.sentences[_sentenceIndex].audioClip;
+        StartCoroutine(DelayNextSentence(currentSentence.nextSentenceDelay));
+
+        GameManager.Instance.ChangeCameraTarget(currentSentence.speaker.speakerIndex);
+
+        speakerNameText.text = currentSentence.speaker.speakerName;
+        speakerNameText.color = currentSentence.speaker.nameColor;
+
+        sentenceAudioSource.clip = currentSentence.audioClip;
         sentenceAudioSource.Play();
+
+        if (currentSentence.informationImage)
+        {
+            GameManager.Instance.OnInformationImage(currentSentence.informationImage);
+        }
+
+        if (currentSentence.offInformation)
+        {
+            GameManager.Instance.OffInformation();
+        }
     }
 
     IEnumerator TypeText(string text)
