@@ -23,11 +23,6 @@ public class CharacterAnim : MonoBehaviour
         _anim = GetComponent<Animator>();
     }
 
-    private void Update()
-    {
-        
-    }
-
     public void PlayAnim(State state)
     {
         switch (state)
@@ -42,5 +37,11 @@ public class CharacterAnim : MonoBehaviour
                 _anim.SetInteger(SelectMotion, 2);
                 break;
         }
+    }
+
+    public void StartIdle()
+    {
+        Debug.Log("12345");
+        PlayAnim(State.Idle);
     }
 }

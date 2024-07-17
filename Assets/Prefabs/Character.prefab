@@ -1364,11 +1364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 491778, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2900047
+      value: 6.2
       objectReference: {fileID: 0}
     - target: {fileID: 491778, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.000023
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 491778, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1402,16 +1402,61 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9572138, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 967e456a3bb65374c8d5088137073b99, type: 2}
+    - target: {fileID: 9572138, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 134308, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3074936079540152455}
+    - targetCorrespondingSourceObject: {fileID: 134308, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2923864060960493142}
   m_SourcePrefab: {fileID: 100100000, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
 --- !u!4 &5996483248447304323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 491778, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
   m_PrefabInstance: {fileID: 5996483248447796097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5996483248447668005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134308, guid: 2486f372dcaaeb644aec1cc2a28f5d82, type: 3}
+  m_PrefabInstance: {fileID: 5996483248447796097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3074936079540152455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996483248447668005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598d601e76d820a47970938c3b06efda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motion: 0
+--- !u!114 &2923864060960493142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996483248447668005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598d601e76d820a47970938c3b06efda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motion: 0
 --- !u!1001 &6034142171518598771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1987,11 +2032,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 423274, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.00001
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 423274, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6999989
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 423274, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2028,6 +2073,14 @@ PrefabInstance:
     - target: {fileID: 423274, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9579180, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 967e456a3bb65374c8d5088137073b99, type: 2}
+    - target: {fileID: 9579180, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
