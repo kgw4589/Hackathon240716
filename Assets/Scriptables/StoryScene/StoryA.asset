@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22436d6c1e36a349b32b102d5132781, type: 3}
+  m_Name: StoryA
+  m_EditorClassIdentifier: 
+  sentences:
+  - audioClip: {fileID: 0}
+    text: "\uC820\uB354 \uAC08\uB4F1\uC5D0 \uB300\uD55C \uD1A0\uB860 \uC2DC\uC791\uD558\uACA0\uC74D\u3134\uB514\u314F."
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC6B0\uB9AC\uB294 \uB3D9\uC77C\uD55C \uC77C\uC744 \uD558\uACE0 \uC788\uC9C0\uB9CC
+      \uC784\uAE08\uC740 \uC5EC\uC804\uD788 \uCC28\uC774\uAC00 \uB0A9\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uD55C\uAD6D\uC5D0\uC11C \uC5EC\uC131\uC758 \uD3C9\uADE0 \uC784\uAE08\uC740
+      \uB0A8\uC131\uC758 \uD3C9\uADE0 \uC784\uAE08\uC5D0 \uBE44\uD574 \uC57D 34%
+      \uB0AE\uC2B5\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC774\uB294 OECD \uAD6D\uAC00 \uC911\uC5D0\uC11C\uB3C4 \uAC00\uC7A5 \uD070
+      \uC131\uBCC4 \uC784\uAE08 \uACA9\uCC28 \uC911 \uD558\uB098\uC785\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uAD6D\uC81C \uB178\uB3D9 \uAE30\uAD6C\uC758 \uD611\uC57D\uC5D0 \uB530\uB974\uBA74,
+      \uC131\uBCC4\uC5D0 \uAD00\uACC4\uC5C6\uC774 \uB3D9\uC77C\uD55C \uB178\uB3D9\uC5D0
+      \uB300\uD574 \uB3D9\uC77C\uD55C \uC784\uAE08\uC744 \uC9C0\uAE09\uD574\uC57C
+      \uD569\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "(\uC800 \uC8FC\uC7A5\uC5D0\uB294 \uC624\uB958\uAC00 \uB9CE\uC544..)"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "(\uC5B4\uB5A4 \uC790\uB8CC\uB97C \uB4E4\uC5B4 \uBC18\uBC15\uD560\uAE4C?)"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene:
+    - {fileID: 11400000, guid: 54bc7baf9508c8b42833dcdf3435cfa5, type: 2}
+    - {fileID: 11400000, guid: abc42e11f25fa29469a639f653d00883, type: 2}
+    - {fileID: 11400000, guid: 5281e76319327a94aad81047bdff0f03, type: 2}
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  backgroundMusic: {fileID: 0}
+  nextScene: {fileID: 0}
+  selectText: 
+  selectedValue: 0

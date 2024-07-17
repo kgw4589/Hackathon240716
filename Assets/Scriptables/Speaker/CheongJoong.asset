@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb2bf42f72d2204ab3b9bfd8294773c, type: 3}
   m_Name: CheongJoong
   m_EditorClassIdentifier: 
-  speakerIndex: 0
+  speakerIndex: 3
   speakerName: "\uCCAD\uC911"
   nameColor: {r: 0.9282032, g: 1, b: 0, a: 1}

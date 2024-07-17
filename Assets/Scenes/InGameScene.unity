@@ -562,7 +562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello, World!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7aa950ad9ac5cd640b4aa10fc2a9597b, type: 2}
   m_sharedMaterial: {fileID: -4415207983469905886, guid: 7aa950ad9ac5cd640b4aa10fc2a9597b, type: 2}
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBC1C\uC5B8\uC790"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7aa950ad9ac5cd640b4aa10fc2a9597b, type: 2}
   m_sharedMaterial: {fileID: -4415207983469905886, guid: 7aa950ad9ac5cd640b4aa10fc2a9597b, type: 2}
@@ -2796,6 +2796,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2114401646674811022, guid: f0edfdd8d071e5346ba17c6a53ad70b0, type: 3}
+      propertyPath: virCamList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114401646674811022, guid: f0edfdd8d071e5346ba17c6a53ad70b0, type: 3}
+      propertyPath: virCamList.Array.data[2]
+      value: 
+      objectReference: {fileID: 285272146}
+    - target: {fileID: 2114401646674811022, guid: f0edfdd8d071e5346ba17c6a53ad70b0, type: 3}
+      propertyPath: virCamList.Array.data[3]
+      value: 
+      objectReference: {fileID: 205252289}
     - target: {fileID: 2324391172587824344, guid: f0edfdd8d071e5346ba17c6a53ad70b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

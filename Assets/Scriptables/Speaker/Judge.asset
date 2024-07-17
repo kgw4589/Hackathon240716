@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb2bf42f72d2204ab3b9bfd8294773c, type: 3}
   m_Name: Judge
   m_EditorClassIdentifier: 
-  speakerIndex: 0
+  speakerIndex: 2
   speakerName: "\uC0AC\uD68C\uC790"
   nameColor: {r: 0.5059869, g: 1, b: 0, a: 1}
