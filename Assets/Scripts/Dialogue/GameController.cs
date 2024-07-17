@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour
     public void PlayScene(StoryScene storyScene)
     {
         _dialogueManager.PlayStory(storyScene);
+        currentScene = storyScene;
     }
 
     private void Update()

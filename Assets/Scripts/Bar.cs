@@ -11,6 +11,8 @@ public class Bar : MonoBehaviour
 
     private void Awake()
     {
+        GameManager.Instance.SetScript(this);
+        
         _hp = maxHp / 2;
     }
 

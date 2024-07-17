@@ -9,6 +9,8 @@ public class StoryScene : ScriptableObject
     public AudioClip backgroundMusic;
     public StoryScene nextScene;
     
+    public float selectedValue;
+    
     [System.Serializable]
     public struct Sentence
     {

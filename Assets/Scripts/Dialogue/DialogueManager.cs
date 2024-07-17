@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI speakerNameText;
     public TextMeshProUGUI dialogueText;
     
-    public float typeDelay = 0.05f;
+    public float typeDelay = 0.01f;
     
     private int _sentenceIndex = -1;
 

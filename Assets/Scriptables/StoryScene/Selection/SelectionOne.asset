@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22436d6c1e36a349b32b102d5132781, type: 3}
+  m_Name: SelectionOne
+  m_EditorClassIdentifier: 
+  sentences:
+  - audioClip: {fileID: 0}
+    text: "\uC9C1\uC5C5\uC758 \uC131\uBCC4 \uBD84\uD3EC\uB97C \uBCF4\uBA74 \uB3D9\uC77C
+      \uB178\uB3D9\uC744 \uD558\uC9C0 \uC54A\uB294\uB2E4\uB294 \uAC83\uC774 \uBA85\uD655\uD569\uB2C8\uB2E4.
+      \uB0A8\uC131\uC740 \uC8FC\uB85C \uC704\uD5D8\uD558\uACE0 \uD798\uB4E0 \uC721\uCCB4
+      \uB178\uB3D9\uC5D0 \uC885\uC0AC\uD558\uACE0, \uC5EC\uC131\uC740 \uC8FC\uB85C
+      \uC0AC\uBB34\uC9C1\uC5D0 \uC885\uC0AC\uD569\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 21300000, guid: a29c024b65e82b24093bd95ececdb72c, type: 3}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uB561\uBCD5\uC5D0\uC11C \uC6A9\uC811\uD558\uB294 \uC0AC\uB78C\uACFC \uC5D0\uC5B4\uCEE8
+      \uC544\uB798\uC5D0\uC11C \uC77C\uD558\uB294 \uC0AC\uBB34\uC9C1\uC758 \uC784\uAE08\uC744
+      \uB3D9\uC77C\uD558\uAC8C \uCC45\uC815\uD558\uB294 \uAC83\uC740 \uBD88\uACF5\uD3C9\uD569\uB2C8\uB2E4.
+      \uB178\uB3D9\uC758 \uAC15\uB3C4\uC640 \uC704\uD5D8\uC131\uC5D0 \uB530\uB978
+      \uBCF4\uC0C1 \uCC28\uC774\uB97C \uC778\uC815\uD574\uC57C \uD569\uB2C8\uB2E4"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 1
+  - audioClip: {fileID: 0}
+    text: "\uC77C\uB9AC\uAC00 \uC788\uC5B4.."
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0.5
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  backgroundMusic: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
+  selectedValue: 10

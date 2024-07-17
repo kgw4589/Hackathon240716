@@ -15,7 +15,6 @@ public class UIManager : MonoBehaviour
     public Image informationImage;
 
     private StoryScene[] _storyScenes = new StoryScene[3];
-    private StoryScene _nextScene;
 
     private int _trueSelectionIndex;
 
@@ -26,11 +25,12 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.SetScript(this);
     }
 
-    public void PlayScene()
+    private void PlayScene(StoryScene storyScene)
     {
         isSelected = true;
         selectionPanel.SetActive(false);
-        GameManager.Instance.PlayScene(_nextScene);
+        GameManager.Instance.PlayScene(storyScene);
+        GameManager.Instance.SetHp(storyScene.selectedValue);
     }
 
     public void SetStoryScenes(StoryScene[] storyScenes, int trueSelectionIndex)
@@ -59,51 +59,8 @@ public class UIManager : MonoBehaviour
         informationAnimator.SetTrigger("OffInformation");
     }
 
-    public void OnClickSelectionOne()
+    public void OnClickSelectionButton(int index)
     {
-        _nextScene = _storyScenes[0];
-        
-        if (_trueSelectionIndex == 0)
-        {
-            
-        }
-        else
-        {
-            
-        }
-        
-        PlayScene();
-    }
-    
-    public void OnClickSelectionTwo()
-    {
-        _nextScene = _storyScenes[1];
-        
-        if (_trueSelectionIndex == 1)
-        {
-            
-        }
-        else
-        {
-            
-        }
-        
-        PlayScene();
-    }
-    
-    public void OnClickSelectionThree()
-    {
-        _nextScene = _storyScenes[2];
-        
-        if (_trueSelectionIndex == 2)
-        {
-            
-        }
-        else
-        {
-            
-        }
-        
-        PlayScene();
+        PlayScene(_storyScenes[index]);
     }
 }
