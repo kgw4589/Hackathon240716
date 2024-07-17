@@ -5938,7 +5938,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4721105970720612222}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9238796, z: -0.000000014901161, w: 0.38268346}
+  m_LocalRotation: {x: 0, y: -0.92387956, z: 0, w: 0.38268343}
   m_LocalPosition: {x: 50, y: 6.2, z: 50}
   m_LocalScale: {x: 9.500005, y: 9.5, z: 9.500005}
   m_ConstrainProportionsScale: 1
@@ -5980,8 +5980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598d601e76d820a47970938c3b06efda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _anim: {fileID: 5432842940022689571}
-  motion: 0
+  anim: {fileID: 5432842940022689571}
+  mySpeaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
 --- !u!1 &4746599736816069599
 GameObject:
   m_ObjectHideFlags: 0

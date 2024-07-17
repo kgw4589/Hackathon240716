@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,8 @@ public class GameManager : Singleton<GameManager>
 
     public float maxScore = 100;
     private float _score;
+
+    private Dictionary<Speaker, CharacterAnim> _characterDic = new Dictionary<Speaker, CharacterAnim>();
 
     public float Score
     {
@@ -43,7 +46,13 @@ public class GameManager : Singleton<GameManager>
     public void Reset()
     {
         _score = 0;
+        _characterDic.Clear();
         SceneManager.LoadScene("MenuScene");
+    }
+
+    public void AddCharacter(Speaker speaker, CharacterAnim characterAnim)
+    {
+        _characterDic.Add(speaker, characterAnim);
     }
 
     public void SetScript(CameraEnd cameraEnd)
@@ -87,9 +96,9 @@ public class GameManager : Singleton<GameManager>
         _gameController.PlayScene(storyScene);
     }
 
-    public void PlayCharacterAnimation(CharacterAnim characterAnim, CharacterAnim.State state)
+    public void PlayCharacterAnimation(Speaker speaker, CharacterAnim.State state)
     {
-        characterAnim.PlayAnim(state);
+        _characterDic[speaker].PlayAnim(state);
     }
 
     public void SetHp(float value)

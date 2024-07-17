@@ -1,9 +1,11 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CharacterAnim : MonoBehaviour
 {
-    public Animator _anim;
+    [SerializeField] private Animator anim;
+    [SerializeField] private Speaker mySpeaker;
     
     public enum State
     {
@@ -11,8 +13,16 @@ public class CharacterAnim : MonoBehaviour
         Talk,
         BadSelect
     }
-    
-    private static readonly int SelectMotion = Animator.StringToHash("SelectMotion");
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+        anim.enabled = true;
+        
+        GameManager.Instance.AddCharacter(mySpeaker, this);
+    }
+
+    // private static readonly int SelectMotion = Animator.StringToHash("SelectMotion");
 
     public void PlayAnim(State state)
     {
@@ -20,15 +30,18 @@ public class CharacterAnim : MonoBehaviour
         {
             case State.Idle:
                 Debug.Log("1");
-                _anim.SetInteger(SelectMotion, 0);
+                anim.SetTrigger("SetStand");
+                // _anim.SetInteger(SelectMotion, 0);
                 break;
             case State.BadSelect:
                 Debug.Log("2");
-                _anim.SetInteger(SelectMotion, 1);
+                anim.SetTrigger("SetBadSelect");
+                // _anim.SetInteger(SelectMotion, 1);
                 break;
             case State.Talk:
                 Debug.Log("3");
-                _anim.SetInteger(SelectMotion, 2);
+                anim.SetTrigger("SetTalk");
+                // _anim.SetInteger(SelectMotion, 2);
                 break;
         }
     }
