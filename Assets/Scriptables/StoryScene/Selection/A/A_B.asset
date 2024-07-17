@@ -14,7 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uC120\uD0DD\uC9C0 2"
+    text: "\uB0A8\uC790\uB294 \uAD70\uB300\uB97C \uAC00\uC796\uB098\uC694;;"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 2
+  - audioClip: {fileID: 0}
+    text: "(\uC6C5\uC131\uC6C5\uC131)"
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 2
+  - audioClip: {fileID: 0}
+    text: "(\uC5EC\uAE30\uC11C \uAC11\uC790\uAE30 \uAD70\uB300 \uC598\uAE30\uB97C..?)"
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 2
+  - audioClip: {fileID: 0}
+    text: "\uC8FC\uC7A5\uACFC \uAD00\uB828\uC774 \uC5C6\uB294 \uBC18\uBC15\uC740
+      \uC0BC\uAC00\uD574\uC8FC\uC138\uC694"
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 2
+  - audioClip: {fileID: 0}
+    text: "\uD06D, \uC774\uAC8C \uC544\uB2C8\uC600\uB098..."
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -24,5 +61,6 @@ MonoBehaviour:
     characterAnimState: 2
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
-  selectText: "\uC120\uD0DD\uC9C0 2"
-  selectedValue: -10
+  selectText: "\uB0A8\uC790\uB294 \uAD70\uB300\uB97C \uAC04\uB2E4\uB294 \uC758\uACAC\uC744
+    \uC81C\uC2DC\uD55C\uB2E4"
+  selectedValue: -30

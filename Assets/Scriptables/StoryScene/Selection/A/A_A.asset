@@ -68,4 +68,4 @@ MonoBehaviour:
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
   selectText: "\uC9C1\uC5C5\uBCC4 \uC131\uBCC4 \uBD84\uD3EC\uD45C\uB97C \uC81C\uC2DC\uD55C\uB2E4"
-  selectedValue: 10
+  selectedValue: 33

@@ -14,14 +14,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uC120\uD0DD\uC9C0 2"
+    text: "\uC774\uC758\uC788\uC18C!!!"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: "\uC720\uB9AC\uAC00 \uAE68\uC9C0\uBA74 \uC0AC\uB78C\uB4E4\uC774 \uB2E4\uCE69\uB2C8\uB2E4!!!"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: ??
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: ????
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: ?????????
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: "\uC9C4\uC9C0\uD55C \uC790\uB9AC\uC774\uB2C8 \uBC1C\uC5B8\uC744 \uB354
+      \uC2E0\uC911\uD788 \uD558\uC168\uC73C\uBA74 \uC88B\uACA0\uC2B5\uB2C8\uB2E4"
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
-  selectText: "\uC120\uD0DD\uC9C0 2"
-  selectedValue: -10
+  selectText: "\uC720\uB9AC\uCC9C\uC7A5\uC774 \uAE68\uC9C0\uBA74 \uB2E4\uCE5C\uB2E4"
+  selectedValue: -75

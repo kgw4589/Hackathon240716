@@ -21,6 +21,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uB2E4\uC74C \uC8FC\uC7A5 \uD574\uC8FC\uC2DC\uC9C0\uC694"
     speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
@@ -29,6 +30,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uC5EC\uC131\uB4E4\uC774 \uACE0\uC704\uC9C1\uC5D0 \uC624\uB974\uB294 \uAC83\uC744
       \uBC29\uD574\uD558\uB294 \uC720\uB9AC \uCC9C\uC7A5\uC774 \uC5EC\uC804\uD788
@@ -39,6 +41,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uD55C\uAD6D\uC758 \uB300\uAE30\uC5C5 \uC784\uC6D0 \uC911 \uC5EC\uC131
       \uBE44\uC728\uC740 \uC57D 5%\uC5D0 \uBD88\uACFC\uD569\uB2C8\uB2E4."
@@ -48,6 +51,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uC5EC\uC131\uB4E4\uC740 \uB9AC\uB354\uC2ED \uB2A5\uB825\uACFC \uCC45\uC784\uAC10\uC774
       \uBD80\uC871\uD558\uB2E4\uB294 \uD3B8\uACAC\uC5D0 \uC9C1\uBA74\uD558\uBA70,
@@ -57,8 +61,9 @@ MonoBehaviour:
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
-    informationImage: {fileID: 21300000, guid: a29c024b65e82b24093bd95ececdb72c, type: 3}
+    informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uB2E4\uC2DC \uBC18\uBC15\uD560 \uCC28\uB840\uC57C..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -67,6 +72,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uC5B4\uB5A4 \uADFC\uAC70\uB85C \uBC18\uBC15 \uC218 \uC788\uC744\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -78,6 +84,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
   selectText: 

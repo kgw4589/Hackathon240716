@@ -24,6 +24,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uC0AC\uBB34\uC9C1 \uB178\uB3D9\uB3C4 \uC815\uC2E0\uC801 \uC2A4\uD2B8\uB808\uC2A4\uC640
       \uB192\uC740 \uC218\uC900\uC758 \uCC45\uC784\uAC10\uC744 \uC694\uAD6C\uD569\uB2C8\uB2E4.
@@ -36,6 +37,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "\uB3D9\uC77C\uD55C \uC9C1\uAE09\uACFC \uC9C1\uBB34\uB97C \uAC00\uC9C4
       \uB0A8\uC131\uACFC \uC5EC\uC131 \uC0AC\uC774\uC5D0\uC11C\uB3C4 \uC784\uAE08
@@ -46,6 +48,7 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uC790 \uB2E4\uC2DC \uBC18\uBC15 \uCC28\uB840\uC57C..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
@@ -54,17 +57,19 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
     text: "(\uC5B4\uB5A4 \uB17C\uAC70\uB85C \uBC18\uBC15\uD560\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
-    - {fileID: 11400000, guid: 36d90f9b2ca389f44bb3d76f84eb953a, type: 2}
     - {fileID: 11400000, guid: b87b74d8b1552164fbaadfe1a1c9bd97, type: 2}
+    - {fileID: 11400000, guid: 36d90f9b2ca389f44bb3d76f84eb953a, type: 2}
     - {fileID: 11400000, guid: 56522da366c04194ca1d85f80ec552fb, type: 2}
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 0}
   selectText: 

@@ -14,63 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uB3D9\uC77C \uAC00\uCE58 \uB178\uB3D9\uC774\uB77C\uB294 \uAC1C\uB150\uC740
-      \uC774\uD574\uD558\uC9C0\uB9CC, \uD604\uC2E4\uC801\uC73C\uB85C\uB294 \uB2E4\uC591\uD55C
-      \uC9C1\uBB34\uC5D0 \uB300\uD55C \uD3C9\uAC00 \uAE30\uC900\uC774 \uB2E4\uB985\uB2C8\uB2E4."
+    text: "\uC0AC\uD68C\uC8FC\uC758\uB3C4 \uC544\uB2C8\uACE0 \uB3D9\uC77C\uD55C \uC784\uAE08\uC744
+      \uBC1B\uB294\uAC8C \uB9DE\uC544\uC694?"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
   - audioClip: {fileID: 0}
-    text: "\uC608\uB97C \uB4E4\uC5B4, \uC721\uCCB4 \uB178\uB3D9\uC740 \uC2E4\uC81C
-      \uC704\uD5D8\uC5D0 \uB178\uCD9C\uB418\uBA70, \uC774\uB294 \uBCF4\uD5D8\uB8CC\uC640
-      \uAC19\uC740 \uCD94\uAC00 \uBE44\uC6A9\uC73C\uB85C\uB3C4 \uC774\uC5B4\uC9D1\uB2C8\uB2E4."
-    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
-    nextSentenceDelay: 0
-    selectionStoryScene: []
-    trueSelectionIndex: 0
-    informationImage: {fileID: 0}
-    offInformation: 0
-  - audioClip: {fileID: 0}
-    text: "\uBC18\uBA74 \uC0AC\uBB34\uC9C1\uC758 \uACBD\uC6B0, \uC0C1\uB300\uC801\uC73C\uB85C
-      \uC548\uC815\uC801\uC778 \uD658\uACBD\uC5D0\uC11C \uC77C\uD558\uB294 \uACBD\uC6B0\uAC00
-      \uB9CE\uC2B5\uB2C8\uB2E4."
-    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
-    nextSentenceDelay: 0
-    selectionStoryScene: []
-    trueSelectionIndex: 0
-    informationImage: {fileID: 0}
-    offInformation: 0
-  - audioClip: {fileID: 0}
-    text: "\uB610\uD55C, \uACE0\uC704\uD5D8\uC131\uACFC \uB192\uC740 \uB178\uB3D9
-      \uAC15\uB3C4\uB294 \uB2E8\uC21C\uD788 \uB3D9\uC77C\uD55C \uAC00\uCE58\uB85C
-      \uD3C9\uAC00\uD558\uAE30 \uC5B4\uB835\uC2B5\uB2C8\uB2E4."
-    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
-    nextSentenceDelay: 0
-    selectionStoryScene: []
-    trueSelectionIndex: 0
-    informationImage: {fileID: 0}
-    offInformation: 0
-  - audioClip: {fileID: 0}
-    text: "\uC77C\uB9AC\uAC00 \uC788\uC5B4.."
+    text: "(\uC218\uADFC\uC218\uADFC..\uC774\uC218\uADFC)"
     speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
-    nextSentenceDelay: 0.5
-    selectionStoryScene: []
-    trueSelectionIndex: 0
-    informationImage: {fileID: 0}
-    offInformation: 0
-  - audioClip: {fileID: 0}
-    text: "\uC54C\uACA0\uC2B5\uB2C8\uB2E4. \uC774\uD574\uD588\uC2B5\uB2C8\uB2E4."
-    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: "(\uC800 \uC0AC\uB78C \uB3D9\uC77C\uB178\uB3D9 \uB3D9\uC77C\uC784\uAE08\uC774
+      \uBB54\uC9C0\uB3C4 \uBAA8\uB974\uB098\uBD10..)"
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: "\uC790\uB8CC \uC870\uC0AC\uAC00 \uBD80\uC871\uD55C \uB4EF\uD558\uB2C8
+      \uB118\uC5B4\uAC00\uB3C4\uB85D \uD558\uACA0\uC2B5\uB2C8\uB2E4"
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
+  - audioClip: {fileID: 0}
+    text: "(\uD07F\uC18C!!!)"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+    characterAnimState: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: 1a41af7645b27ca4e93aa8c9ed7ba04e, type: 2}
-  selectText: "\uAC1C\uB150\uACFC \uD604\uC2E4\uC758 \uCC28\uC774, \uAC00\uCE58\uC758
-    \uBE44\uAD50"
-  selectedValue: 10
+  selectText: "\uC6B0\uB9AC\uB098\uB77C\uAC00 \uC0AC\uD68C\uC8FC\uC758\uAC00 \uC544\uB2CC
+    \uBBFC\uC8FC\uC8FC\uC758\uC778 \uAC83\uC744 \uC5B4\uD544\uD558"
+  selectedValue: -30
