@@ -15,4 +15,4 @@ MonoBehaviour:
   speakerIndex: 1
   speakerName: "\uC601\uD76C"
   nameColor: {r: 1, g: 0.2924527, b: 0.5761478, a: 1}
-  characterAnim: {fileID: 8487629537262762148, guid: ceef56b5a03f15a46bdd37b19aa5db9f, type: 3}
+  characterAnim: {fileID: 923446631469152234, guid: a9f5bc841e0182b43bcccfb76c26a511, type: 3}

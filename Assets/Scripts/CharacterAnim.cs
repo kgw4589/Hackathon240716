@@ -11,9 +11,7 @@ public class CharacterAnim : MonoBehaviour
         Talk,
         BadSelect
     }
-
-    public State motion;
-
+    
     private static readonly int SelectMotion = Animator.StringToHash("SelectMotion");
 
     public void PlayAnim(State state)
@@ -21,12 +19,15 @@ public class CharacterAnim : MonoBehaviour
         switch (state)
         {
             case State.Idle:
+                Debug.Log("1");
                 _anim.SetInteger(SelectMotion, 0);
                 break;
             case State.BadSelect:
+                Debug.Log("2");
                 _anim.SetInteger(SelectMotion, 1);
                 break;
             case State.Talk:
+                Debug.Log("3");
                 _anim.SetInteger(SelectMotion, 2);
                 break;
         }

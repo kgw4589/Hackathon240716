@@ -89,7 +89,7 @@ public class GameManager : Singleton<GameManager>
 
     public void PlayCharacterAnimation(CharacterAnim characterAnim, CharacterAnim.State state)
     {
-        characterAnim?.PlayAnim(state);
+        characterAnim.PlayAnim(state);
     }
 
     public void SetHp(float value)
