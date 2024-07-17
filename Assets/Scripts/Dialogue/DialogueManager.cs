@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
     public float typeDelay = 0.01f;
     
     private int _sentenceIndex = -1;
+    
+    [SerializeField] private Speaker cheongJoong;
 
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioSource sentenceAudioSource;
@@ -76,8 +78,12 @@ public class DialogueManager : MonoBehaviour
 
         sentenceAudioSource.clip = currentSentence.audioClip;
         sentenceAudioSource.Play();
-        
-        GameManager.Instance.PlayCharacterAnimation(currentSentence.speaker, currentSentence.characterAnimState);
+
+        if (currentSentence.speaker != cheongJoong)
+        {
+            GameManager.Instance.PlayCharacterAnimation(currentSentence.speaker, currentSentence.characterAnimState);
+            
+        }
 
         if (currentSentence.informationImage)
         {

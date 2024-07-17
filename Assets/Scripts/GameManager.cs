@@ -46,19 +46,17 @@ public class GameManager : Singleton<GameManager>
     public void Reset()
     {
         _score = 0;
-        _characterDic.Clear();
         SceneManager.LoadScene("MenuScene");
     }
 
     public void AddCharacter(Speaker speaker, CharacterAnim characterAnim)
     {
-        _characterDic.Add(speaker, characterAnim);
+        if (!_characterDic.ContainsKey(speaker))
+        {
+            _characterDic.Add(speaker, characterAnim);
+        }
     }
 
-    public void SetScript(CameraEnd cameraEnd)
-    {
-        _cameraEnd = cameraEnd;
-    }
     public void SetScript(GameController gameController)
     {
         _gameController = gameController;
