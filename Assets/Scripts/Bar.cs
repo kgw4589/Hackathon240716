@@ -22,7 +22,7 @@ public class Bar : MonoBehaviour
         image.transform.localPosition = new Vector3((_hpSlider.value * 1000) - 500, thisPos.y,thisPos.z);
     }
 
-    private void Calculate(float count)
+    public void Calculate(float count)
     {
         
     }
