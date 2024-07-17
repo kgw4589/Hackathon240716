@@ -14,18 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uC9C1\uC5C5\uC758 \uC131\uBCC4 \uBD84\uD3EC\uB97C \uBCF4\uBA74 \uB3D9\uC77C
-      \uB178\uB3D9\uC744 \uD558\uC9C0 \uC54A\uB294\uB2E4\uB294 \uAC83\uC774 \uBA85\uD655\uD569\uB2C8\uB2E4."
-    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
-    nextSentenceDelay: 0
-    selectionStoryScene: []
-    trueSelectionIndex: 0
-    informationImage: {fileID: 21300000, guid: a29c024b65e82b24093bd95ececdb72c, type: 3}
-    offInformation: 0
-  - audioClip: {fileID: 0}
-    text: "\uB0A8\uC131\uC740 \uC8FC\uB85C \uB192\uC740 \uAE30\uC220\uC774 \uD544\uC694\uD55C
-      \uC77C, \uC721\uCCB4 \uB178\uB3D9\uC5D0 \uC885\uC0AC\uD558\uACE0, \uC5EC\uC131\uC740
-      \uC8FC\uB85C \uB2E8\uC21C\uB178\uBB34,  \uC0AC\uBB34\uC9C1\uC5D0 \uC885\uC0AC\uD569\uB2C8\uB2E4."
+    text: "CEO\uB4E4\uC758 \uB9D0\uC5D0 \uB530\uB974\uBA74, \uC5EC\uC131\uC758 \uC5C5\uBB34
+      \uD6A8\uC728\uC774 \uB0A8\uC131\uBCF4\uB2E4 \uB0AE\uB2E4\uACE0 \uD3C9\uAC00\uB429\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -33,19 +23,38 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uB561\uBCD5\uC5D0\uC11C \uC6A9\uC811\uD558\uB294 \uC0AC\uB78C, \uB192\uC740
-      \uAE30\uC220\uC801 \uC9C0\uC2DD\uC744 \uAC00\uC9C4 \uC0AC\uB78C\uACFC \uC5D0\uC5B4\uCEE8
-      \uC544\uB798\uC5D0\uC11C \uC77C\uD558\uB294 \uC0AC\uBB34\uC9C1\uC758 \uC784\uAE08\uC744
-      \uB3D9\uC77C\uD558\uAC8C \uCC45\uC815\uD558\uB294 \uAC83\uC740 \uBD88\uACF5\uD3C9\uD569\uB2C8\uB2E4."
+    text: "\uB610\uD55C, \uC5EC\uC131\uB4E4\uC774 \uB0A8\uC131\uC5D0 \uBE44\uD574
+      \uCC45\uC784\uAC10\uC774 \uBD80\uC871\uD558\uB2E4\uB294 \uD3C9\uAC00\uB3C4
+      \uC788\uC2B5\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
-    offInformation: 1
+    offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uB178\uB3D9\uC758 \uAC15\uB3C4\uC640 \uC704\uD5D8\uC131\uC5D0 \uB530\uB978
-      \uBCF4\uC0C1 \uCC28\uC774\uB97C \uC778\uC815\uD574\uC57C \uD569\uB2C8\uB2E4"
+    text: "\uC0AC\uB0B4\uC5D0\uC11C \uC5EC\uC131 \uC9C1\uC6D0\uB4E4\uC758 \uC9D1\uB2E8
+      \uB530\uB3CC\uB9BC \uBB38\uC81C\uAC00 \uBC1C\uC0DD\uD588\uB2E4 \uC8FC\uC7A5\uB3C4
+      \uB2E4\uC218 \uC874\uC7AC\uD569\uB2C8."
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uD68C\uC0AC\uB294 \uC5C5\uBB34 \uD6A8\uC728\uC774 \uC88B\uC73C\uBA74
+      \uC131\uBCC4\uC5D0 \uAD00\uACC4\uC5C6\uC774 \uC778\uC7AC\uB97C \uACE0\uC6A9\uD558\uB294
+      \uAC83\uC774 \uC6D0\uCE59\uC785\uB2C8\uB2E4"
+    speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uADF8\uB9AC\uACE0 \uADF8\uB7F0 CEO\uB4E4\uC774 \uB9D0\uD558\uB294 \uAC83\uC5D0\uB294
+      \uC774\uC720\uAC00 \uC788\uC2B5\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -60,7 +69,25 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uD655\uC2E4\uD788, \uC6B0\uB9AC \uBAA8\uB450 \uC2A4\uC2A4\uB85C\uB97C
+      \uB3CC\uC544\uBCF4\uBA70"
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC790\uC2E0\uC758 \uBB38\uC81C\uBD80\uD130 \uACE0\uCE60 \uD544\uC694\uAC00
+      \uC788\uC5B4 \uBCF4\uC5EC."
+    speaker: {fileID: 11400000, guid: a893b5a9b10758f4c83c50e6d223b5f0, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
   backgroundMusic: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
-  selectText: "\uC9C1\uC5C5\uBCC4 \uC131\uBCC4 \uBD84\uD3EC\uD45C\uB97C \uC81C\uC2DC\uD55C\uB2E4"
+  nextScene: {fileID: 0}
+  selectText: "\uC5EC\uB7EC CEO\uB4E4\uC758 \uBC1C\uC5B8\uB4E4\uC744 \uC81C\uC2DC\uD55C\uB2E4"
   selectedValue: 10

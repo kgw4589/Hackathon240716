@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "(\uC820\uC7A5, \uBC18\uBC15\uD560 \uC218\uAC00 \uC5C4\uC11C..\u3160)"
+    text: "(\uC820\uC7A5, \uC0DD\uAC01\uC774 \uB5A0\uC624\uB974\uC9C0 \uC54A\uC544..
+      \uBC18\uBC15\uD560 \uC218\uAC00 \uC5C4\uC11C..\u3160)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []

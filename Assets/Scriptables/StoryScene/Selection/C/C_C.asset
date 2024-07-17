@@ -38,6 +38,6 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   backgroundMusic: {fileID: 0}
-  nextScene: {fileID: 11400000, guid: bb2cd1ad33f142c4cb72b99455937b1c, type: 2}
+  nextScene: {fileID: 0}
   selectText: "\uBC18\uBC15\uD560 \uBD80\uBD84\uC774 \uC5C6\uB2E4.."
   selectedValue: -50

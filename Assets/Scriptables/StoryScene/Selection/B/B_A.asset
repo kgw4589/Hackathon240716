@@ -61,6 +61,14 @@ MonoBehaviour:
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC54C\uACA0\uC2B5\uB2C8\uB2E4. \uC774\uD574\uD588\uC2B5\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
   backgroundMusic: {fileID: 0}
   nextScene: {fileID: 11400000, guid: 1a41af7645b27ca4e93aa8c9ed7ba04e, type: 2}
   selectText: "\uAC1C\uB150\uACFC \uD604\uC2E4\uC758 \uCC28\uC774, \uAC00\uCE58\uC758

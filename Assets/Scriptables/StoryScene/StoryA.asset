@@ -61,7 +61,7 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "(\uC800 \uC8FC\uC7A5\uC5D0\uB294 \uC624\uB958\uAC00 \uB9CE\uC544..)"
+    text: "(\uC790 \uC774\uC81C \uBC18\uBC15\uD560 \uCC28\uB840\uC57C..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -69,13 +69,13 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "(\uC5B4\uB5A4 \uC790\uB8CC\uB97C \uB4E4\uC5B4 \uBC18\uBC15\uD560\uAE4C?)"
+    text: "(\uC774 \uC8FC\uC7A5\uC5D0 \uBC18\uBC15\uD560 \uADFC\uAC70\uAC00 \uC788\uC744\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
     - {fileID: 11400000, guid: 54bc7baf9508c8b42833dcdf3435cfa5, type: 2}
-    - {fileID: 11400000, guid: abc42e11f25fa29469a639f653d00883, type: 2}
     - {fileID: 11400000, guid: 5281e76319327a94aad81047bdff0f03, type: 2}
+    - {fileID: 11400000, guid: abc42e11f25fa29469a639f653d00883, type: 2}
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0

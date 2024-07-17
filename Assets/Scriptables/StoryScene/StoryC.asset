@@ -14,10 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - audioClip: {fileID: 0}
-    text: "\uB3D9\uC77C \uB178\uB3D9 \uB3D9\uC77C \uC784\uAE08\uC758 \uAC1C\uB150\uC740
-      \uB3D9\uC77C\uD55C \uC9C1\uBB34\uB97C \uC218\uD589\uD558\uB294 \uACBD\uC6B0\uBFD0
-      \uC544\uB2C8\uB77C, \uB3D9\uC77C\uD55C \uAC00\uCE58\uC758 \uB178\uB3D9\uC5D0
-      \uB300\uD574\uC11C\uB3C4 \uC801\uC6A9\uB429\uB2C8\uB2E4."
+    text: "\uB9D0\uC500 \uC798 \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4."
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uB2E4\uC74C \uC8FC\uC7A5 \uD574\uC8FC\uC2DC\uC9C0\uC694"
+    speaker: {fileID: 11400000, guid: 71bb8d98044964649ac4edaf69bd5511, type: 2}
+    nextSentenceDelay: 0
+    selectionStoryScene: []
+    trueSelectionIndex: 0
+    informationImage: {fileID: 0}
+    offInformation: 0
+  - audioClip: {fileID: 0}
+    text: "\uC5EC\uC131\uB4E4\uC774 \uACE0\uC704\uC9C1\uC5D0 \uC624\uB974\uB294 \uAC83\uC744
+      \uBC29\uD574\uD558\uB294 \uC720\uB9AC \uCC9C\uC7A5\uC774 \uC5EC\uC804\uD788
+      \uC874\uC7AC\uD569\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -25,11 +40,8 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uC0AC\uBB34\uC9C1 \uB178\uB3D9\uB3C4 \uC815\uC2E0\uC801 \uC2A4\uD2B8\uB808\uC2A4\uC640
-      \uB192\uC740 \uC218\uC900\uC758 \uCC45\uC784\uAC10\uC744 \uC694\uAD6C\uD569\uB2C8\uB2E4.
-      \uB610\uD55C \uC131\uBCC4 \uC784\uAE08 \uACA9\uCC28\uB294 \uB2E8\uC21C\uD788
-      \uC9C1\uBB34\uC758 \uCC28\uC774\uC5D0\uC11C \uC624\uB294 \uAC83\uC774 \uC544\uB2C8\uB77C,
-      \uB3D9\uC77C\uD55C \uC9C1\uBB34 \uB0B4\uC5D0\uC11C\uB3C4 \uC874\uC7AC\uD569\uB2C8\uB2E4."
+    text: "\uD55C\uAD6D\uC758 \uB300\uAE30\uC5C5 \uC784\uC6D0 \uC911 \uC5EC\uC131
+      \uBE44\uC728\uC740 \uC57D 5%\uC5D0 \uBD88\uACFC\uD569\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -37,9 +49,10 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "\uB3D9\uC77C\uD55C \uC9C1\uAE09\uACFC \uC9C1\uBB34\uB97C \uAC00\uC9C4
-      \uB0A8\uC131\uACFC \uC5EC\uC131 \uC0AC\uC774\uC5D0\uC11C\uB3C4 \uC784\uAE08
-      \uCC28\uC774\uAC00 \uBC1C\uC0DD\uD558\uB294 \uACBD\uC6B0\uAC00 \uB9CE\uC2B5\uB2C8\uB2E4."
+    text: "\uC5EC\uC131\uB4E4\uC740 \uB9AC\uB354\uC2ED \uB2A5\uB825\uACFC \uCC45\uC784\uAC10\uC774
+      \uBD80\uC871\uD558\uB2E4\uB294 \uD3B8\uACAC\uC5D0 \uC9C1\uBA74\uD558\uBA70,
+      \uC774\uB294 \uC5EC\uC131\uB4E4\uC774 \uC2B9\uC9C4\uD558\uB294 \uB370 \uD070
+      \uC7A5\uC560\uBB3C\uC774 \uB429\uB2C8\uB2E4."
     speaker: {fileID: 11400000, guid: 0663d36c1f070c3499a1b68a7556d0ff, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -47,7 +60,7 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "(\uC774 \uC8FC\uC7A5\uC5D0\uB294 \uBAA8\uC21C\uC774 \uB9CE\uC544..)"
+    text: "(\uB2E4\uC2DC \uBC18\uBC15\uD560 \uCC28\uB840\uC57C..)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene: []
@@ -55,13 +68,13 @@ MonoBehaviour:
     informationImage: {fileID: 0}
     offInformation: 0
   - audioClip: {fileID: 0}
-    text: "(\uC5B4\uB5A4 \uB17C\uAC70\uB85C \uBC18\uBC15\uD560\uAE4C?)"
+    text: "(\uC5B4\uB5A4 \uADFC\uAC70\uB85C \uBC18\uBC15 \uC218 \uC788\uC744\uAE4C?)"
     speaker: {fileID: 11400000, guid: f37d97d0a4b990348bc63ba13b9c434f, type: 2}
     nextSentenceDelay: 0
     selectionStoryScene:
-    - {fileID: 11400000, guid: 36d90f9b2ca389f44bb3d76f84eb953a, type: 2}
-    - {fileID: 11400000, guid: b87b74d8b1552164fbaadfe1a1c9bd97, type: 2}
-    - {fileID: 11400000, guid: 56522da366c04194ca1d85f80ec552fb, type: 2}
+    - {fileID: 11400000, guid: 51ee02f621f52c24a9d2446a531fd348, type: 2}
+    - {fileID: 11400000, guid: 5db89d1827cbb72419822c69677b12fd, type: 2}
+    - {fileID: 11400000, guid: 3fb6923aef9a3104ba96dd5755a14653, type: 2}
     trueSelectionIndex: 0
     informationImage: {fileID: 0}
     offInformation: 0
