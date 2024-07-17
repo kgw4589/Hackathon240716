@@ -61,7 +61,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7260626043426407662}
   m_Layer: 0
-  m_Name: Charactor
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1850,6 +1850,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blocky_Dude_Blue_Desktop
       objectReference: {fileID: 0}
+    - target: {fileID: 405130, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.035564817
+      objectReference: {fileID: 0}
+    - target: {fileID: 405130, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.002335128
+      objectReference: {fileID: 0}
     - target: {fileID: 409022, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.500004
@@ -1906,11 +1914,48 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 427444, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6613886
+      objectReference: {fileID: 0}
+    - target: {fileID: 427444, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.73523617
+      objectReference: {fileID: 0}
+    - target: {fileID: 9512198, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 967e456a3bb65374c8d5088137073b99, type: 2}
+    - target: {fileID: 9512198, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 184114, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2051561811182774775}
   m_SourcePrefab: {fileID: 100100000, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+--- !u!1 &7377892224735631813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 184114, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
+  m_PrefabInstance: {fileID: 7377892224735450871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2051561811182774775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377892224735631813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598d601e76d820a47970938c3b06efda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motion: 0
 --- !u!4 &7377892224735849289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409022, guid: a9323d210b56a654eabbe93d3969ccaa, type: 3}
@@ -1987,8 +2032,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 134906, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8147195572520872926}
   m_SourcePrefab: {fileID: 100100000, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
+--- !u!1 &7710154267023339290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134906, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
+  m_PrefabInstance: {fileID: 7710154267023204832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8147195572520872926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7710154267023339290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598d601e76d820a47970938c3b06efda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motion: 0
 --- !u!4 &7710154267023578250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 423274, guid: 75eba40011cb2bf4ba969295bb218429, type: 3}
