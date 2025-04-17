@@ -48,7 +48,7 @@
 * 각각의 문장으로 나누어 사운드, 화자, 대사, 선택지 및 그에 대한 내용, 이미지, 애니메이션 등을 설정할 수 있음.
 * 이렇게 만든 문장을 묶어 하나의 스토리 스크립터블이 탄생함.
 * 선택지 혹은 하나의 스토리가 끝난 후 이어갈 다음 스토리를 지정할 수 있음.
-![Image](https://github.com/user-attachments/assets/58b6a402-581f-4693-9f4c-b72a8324929b)
+![Image](https://github.com/user-attachments/assets/c90800a1-a574-4753-ac6c-4fc80cbb2cba)
 
 ---
 
