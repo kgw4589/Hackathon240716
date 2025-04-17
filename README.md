@@ -37,3 +37,10 @@
 
 ## 라이선스
 
+### 포함되지 않은 에셋
+- `Assets/06.AssetStore` 폴더 내 모든 콘텐츠는 저작권 문제로 GitHub에 포함하지 않았습니다.
+- 이 폴더는 Unity Asset Store에서 무료로 배포된 다음의 에셋을 포함하고 있습니다:
+  - **Owen Memorial Hall**, [링크](https://assetstore.unity.com/packages/package/282519)
+  - **Block People**, [링크](https://assetstore.unity.com/packages/3d/characters/block-people-60962)
+
+> 위 에셋들은 Unity에서 정한 [Asset Store EULA](https://unity3d.com/legal/as_terms) 및 비재배포 조항에 따라 저장소에서 제외되었습니다. 단, 스크린샷 및 영상에는 등장할 수 있으며, 이는 Unity 측 라이선스에 위배되지 않습니다.
