@@ -40,6 +40,9 @@
 ![Image](https://github.com/user-attachments/assets/9959e80b-de56-4931-9724-d00530351dc4)      
 
 * 중간중간 상대의 주장에 반론하는 선택지가 나옴. 3개의 선택지 버튼 중 하나를 눌러 분기점을 만듦.
+* 선택지에 따라서 자료 UI가 팝업될 수 있음.
+* 올바른 반론을 펼치는 선택 시 점수가 상승하며, 잘못된 반론을 펼치는 선택 시 점수가 감소함.      
+![Image](https://github.com/user-attachments/assets/45f90aaa-d183-4f87-ac46-df8398550a29)
 
 ---
 
