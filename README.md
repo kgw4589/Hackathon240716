@@ -63,6 +63,7 @@
 
 **점수 시스템**
 * 점수가 증가, 감소할 때마다 상단의 점수 게이지가 증가, 감소함
+  
 ![hackerton](https://github.com/user-attachments/assets/830a30eb-1d7d-417f-8ddd-a9eb02d08095)
 * 게임 종료 시 점수에 따라 상승하는 이해도가 변경됨
 ---
