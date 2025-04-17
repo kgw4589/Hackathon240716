@@ -50,6 +50,13 @@
 * 선택지 혹은 하나의 스토리가 끝난 후 이어갈 다음 스토리를 지정할 수 있음.
 ![Image](https://github.com/user-attachments/assets/c90800a1-a574-4753-ac6c-4fc80cbb2cba)
 
+
+**시네머신**
+* 현재 화자에게 카메라 화면이 이동함
+![Image](https://github.com/user-attachments/assets/9959e80b-de56-4931-9724-d00530351dc4)      
+
+* 게임 종료 시 카메라가 정해진 경로를 따라 이동함
+
 ---
 
 ## 라이선스
